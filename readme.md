@@ -1,5 +1,7 @@
 # Binary Beavers
 
+Beavers break down logs: distributed discrete logarithm solver for finite fields.  
+
 ```bash
 # Prime modulus
 p = 3217014639198601771090467299986349868436393574029172456674199
