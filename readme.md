@@ -58,7 +58,7 @@ graph LR
 3. **Generator Loop**:
     - Continuously execute the following steps within the loop until a successful factorization is emitted (signaled by collector):
         - **Generate Relations Using a Quadratic Sieve**: Select `h` and `k` such that $(g^k + h)(g^k - h)$ is likely smooth
-        - **Attempt Factorization**: Attempt to factor $g^{2k) - h^2$, $(g^k + h)$, and $(g^k-h)$ using the primes in the factor base; if not smooth, discard the attempt and generate a new relation
+        - **Attempt Factorization**: Attempt to factor $g^{2k} - h^2$, $(g^k + h)$, and $(g^k-h)$ using the primes in the factor base; if not smooth, discard the attempt and generate a new relation
         - **Emit Successful Factorizations**: When $g^{2k} - h^2$ successfully factors smoothly, emit the details of the relation and its factorization and check for task completion
             - **`202 Accepted`** to continue
             - **`418 I'm a Teapot`** for task complete
