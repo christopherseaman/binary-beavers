@@ -48,10 +48,7 @@ graph LR
 2. **Initialize Factor Base**:
     - Calculate the smoothness bound using heuristic:
     
-    $$
-    B = \exp\left(\left(\frac{64}{9}\cdot \log(p)\right)^{\frac{1}{3}} \cdot \left(\log(\log(p))\right)^{\frac{2}{3}}\right)
-    
-    $$
+    $B = \exp\left(\left(\frac{64}{9}\cdot \log(p)\right)^{\frac{1}{3}} \cdot \left(\log(\log(p))\right)^{\frac{2}{3}}\right)$
     
     - For `p` as above, `B = 3569817792505`
     - Create the factor base using primes up to this bound
